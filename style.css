@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.GALLERY {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 163, 71);
+    border: 6px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    margin: 5px;
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+    user-select: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 5px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+        
+}
+
+#sub {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 3%;
+    font-size: 25px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    
+}
+article {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+section {
+    text-align: center;
+}
+nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: larger;
+    background-color: rgb(233, 214, 145);
+
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: right;
+    width: 10%;
+    display: flex;
+}
+.BRAND {
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    float: left;
+  
+   
+    
+}
+
+.DESCRIP {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+.Slogan {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Brief1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2%;
+    font-size: 1em;
+}
+
+.Brief2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2%;
+    font-size: 1em;
+    text-align: center;
+}
+
+.item {
+    text-align: center;
+   
+    
+
+}
+.rowimg1 {
+    transition: 1s ease-in-out;
+}    
+.rowimg2 {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    transition: 1s ease-in-out;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul li:nth-child(2) a {
+    color: black;
+}
+
+ul li:not(:nth-child(2)) a {
+    color: brown;
+}
+
+.GALLERY:hover {
+    background-color: rgb(34, 112, 206);
+    border: 6px solid rgb(232, 134, 68);
+    color: azure;
+   
+}
+.GALLERY:active {
+    background-color: rgb(209, 210, 210);
+    border: 6px solid rgb(28, 16, 7);
+    color: blue;
+    
+}
+
+.rowimg2:hover {
+    background-color: rgb(220, 153, 91);
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+}
+.rowimg1:hover {
+    background-color: rgb(220, 153, 91);
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .Brief1 {
+        font-size: 1.5em;
+    
+    }
+    .Brief2 {
+        font-size: 1.5em;
+    }
+    #sub {
+        font-size: 1.5em;
+    }
+    .DESCRIP {
+        font-size: 1.5em;
+
+    }
+    .Slogan {
+        font-size: 1.5em;
+    }
+
+}
